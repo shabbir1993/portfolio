@@ -1,0 +1,45 @@
+
+.nbar {
+	float: right;
+}
+
+.jumbotron {
+	padding: 10px;
+	margin: 10px;
+    background-color:#D5F5E3 !important; 
+}
+
+
+.project {
+	padding-top: 15px;
+}
+
+body {
+	background-color: #A3E4D7 !important;
+	position: relative;
+}
+
+/* Set the fixed height of the footer here */
+#footer {
+  height: 60px;
+  background-color: #45B39D;
+  margin-top:50px;
+  padding-top:20px;
+  padding-bottom:20px;
+}
+
+
+.affix {
+      top:0;
+      width: 100%;
+      z-index: 9999 !important;
+  }
+
+.navbar {
+      margin-bottom: 0px;
+  }
+
+.affix ~ .container-fluid {
+     position: relative;
+     top: 50px;
+ }
